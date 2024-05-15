@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Test document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="..\images\apple-music.ico">
+
+    <script type src="dom.js" type="text/javasript"></script>
+    
+    
+</head>
+<body>
+    <div class="container"> 
+    <h1 class="heading-large "> Test </h1>
+
+  <section>
+    <h3>JS Window Obj</h3> 
+    <div class="button primary" onclick="window.open(`https://www.google.com/`, `_blank`, `height:500, width:400`)">Navigate  </div>
+  </section>
+
+  <section>
+    <h3>JavaScript History Object</h3> 
+    <div class=" element-inline"> 
+    <div class="button primary" onclick="history.back()">Go Back  </div>
+    <div class="button primary" onclick="history.forward()">Go Forward  </div>
+    <div class="button primary" onclick="history.go(-1)" >Move Backward or forward  </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h3>JavaScript Location</h3> 
+    <div class=" element-inline"> 
+        <div class="button primary"onclick="location.reload()" >Reload the Page  </div>
+        <div class="button primary" onclick="location.replace(`https://www.google.com/`)">Navigate Page using replace  </div>
+        <div class="button primary" onclick="location.assign(`https://layers.to/explore/trending`)">Navigate Page with Assign  </div>
+    
+    </div>
+
+  </section>
+
+  <section>
+    <h3>JavaScript Screen Object</h3> 
+    <span class="paragraph-small"> We will see in console.</span>
+  </section>
+
+
+</div>
+</body>
+    <!-- <script type="text/javascript">
+        alert('Page loaded ');
+    </script> -->
+</html>

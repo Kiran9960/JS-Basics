@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="todo.js"></script>
+
+    <script>
+            const greet = ()=>{ alert('Inine functionve envoked '); }
+            alert('welcome ');
+        
+            const addEvent =()=>{
+               document.querySelectorAll("button").addEventListener("click", greet3())
+
+            }
+    </script>
+
+</head>
+<body>
+    <div class="container"> 
+
+        <h2> To Do list</h2>
+        <input type="text"> <button>Add </button>
+    </div>
+
+    <div>
+
+        <!--Event types inline, outside embeded   -->
+        <!-- <div event="do something> </div> -->
+ 
+
+        <button onclick="greet()"> Inline event </button>
+        <button onclick="greet2()"> outside file  </button>
+        <button onclick=""> embeded </button>
+
+       <!-- browser load event ex. alert  -->
+
+    </div>
+
+    <section>
+        <button onclick="greet3()"> Event Listener added  </button>
+        
+    </section>
+    
+</body>
+</html>

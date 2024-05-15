@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+
+</head>
+<body>
+
+<div class="container"> 
+<!-- slection of element  -->
+
+<h1> H1 element Selected with h1 tag  </h1>
+<h2 id="title"> H2 with element Selected with tag </h2>
+
+<!-- slection of element  -->
+<span> changing html below </span>
+
+<!-- changing html -->
+<p class="intro"> Para: Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, magnam!</p>
+
+<!-- para with red bg -->
+<p id="myPara"> para 2: This is original content </p>
+
+<div class="imgRow"> 
+ 1   
+<img src="../../images/tower.jpg" id="place1" class="placeImg" onclick="removeEle(`place1`)" onmouseover="scaleImg(`#place1`)" >
+<!--  -->
+2
+<img src="../../images/shrine2.jpg" id="place2" class="placeImg" onclick="removeEle(`place2`)" onmouseover="scaleImg(`#place2`)">
+
+<!-- create and append elemnt  -->
+<p id="placeImg" onclick="placeImage()"> click to see another image </p>
+
+</div>
+
+<!-- changing css -->
+
+<!-- event listener -->
+
+</div>
+    
+</body>
+
+<script src="dom.js"></script>
+
+</html>
